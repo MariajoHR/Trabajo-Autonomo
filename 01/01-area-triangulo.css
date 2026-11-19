@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 30px 16px;
+    text-align: center;
+}
+
+h1 {
+    color: rgb(145, 29, 199);
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.enunciado {
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* El input: sin borde, solo una linea abajo en teal */
+input {
+    margin: 5px;
+    padding: 6px 9px;
+    border: none;
+    border-bottom: 1px solid teal;
+    color: teal;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.caja {
+    background-color: rgb(191, 253, 255);
+    color: rgb(0, 0, 0);
+    width: 260px;
+    margin: 20px auto 0;
+    padding: 10px;
+    text-align: center;
+    border: 3px solid rgb(145, 29, 199);
+    border-radius: 5px;
+    line-height: 1.6;
+}
